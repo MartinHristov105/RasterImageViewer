@@ -14,7 +14,11 @@ This project is a console-based raster image editor. It supports loading, proces
 - Each session receives an unique ID (a whole positive number) to allow managing multiple sessions.
   
 - Transformations apply to **all images** loaded in the current session.
-
+- You can load/add images from random directories.
+- For **correct** work you must create a **"saves"** folder in the **main** directory of the console application.
+- Save, exit and saveas(without correct amount of provided names) by default save the new images in the **"saves"** folder.
+- If you want to save outside this directory you should use **saveas** and write the correct directory + the file name. 
+  
 ### Commands and Features
 
 - **Convert to Grayscale**  
